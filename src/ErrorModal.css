@@ -1,0 +1,78 @@
+.ErrorModal-BackDrop {
+    background-color: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    position: absolute;
+    width: 45%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.modal header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+    height: 25%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal p {
+    margin: 5%;
+}
+
+.modal .message {
+    width: 100%;
+    font-weight: bold;
+}
+
+.modal button {
+    margin: 5%;
+    background-color: rgb(1, 176, 1);
+    border: 0;
+    color: white;
+    width: 20%;
+    height: 40%;
+    border-radius: 3px;
+    font-weight: bold;
+    box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+}
+
+.modal button:hover {
+    background-color: rgb(4, 123, 4);
+    cursor: pointer;
+}
+
+.modal footer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+@media only screen and (max-width: 850px) {
+    .modal {
+      width: 85%;
+      margin-top: 50%;
+    }
+    .modal button{
+        height:50%;
+        margin-bottom: 8%;
+        width: 30%;
+    }
+  }

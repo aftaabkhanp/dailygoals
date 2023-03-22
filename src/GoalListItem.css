@@ -1,0 +1,85 @@
+.GoalListItem {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(30, 30, 225);
+    height: 3rem;
+    margin: 2%;
+    box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
+    justify-content: space-between;
+}
+
+.GoalListItem .checkarea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+
+}
+.GoalListItem:hover{
+    background-color: rgb(3, 3, 184);
+    transition: ease;
+    
+}
+
+.checkarea .fa-solid {
+    color: white;
+    font-size: 32px;
+    margin: 2%;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.fa-rectangle-xmark{
+    margin: 1%;
+}
+.fa-floppy-disk{
+    font-size: 25px;
+}
+.checkarea h3 {
+    color: white;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.checkarea input {
+    margin: 5%;
+    width: 60%;
+    height: 1.5rem;
+    border-radius: 2px;
+    font-size: large;
+}
+
+.GoalListItem button {
+    background-color: white;
+    border: 0;
+    margin: 5%;
+    color: red;
+    font-weight: bold;
+    height: 100%;
+    font-size: 32px;
+    border-radius: 0 5px 5px 0;
+    margin-right: 0;
+    width: 10%;
+}
+
+.GoalListItem button:hover {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border: 0.5px solid rgb(166, 165, 165);
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .GoalListItem button {
+        width: 15%;
+    }
+    .checkarea .fa-solid {
+        margin: 2%;
+        margin-left: 5%;
+    }
+}

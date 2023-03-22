@@ -1,0 +1,15 @@
+.GoalInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.8) 0px 4px 12px 1px;
+    margin: 5%;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+    .GoalInput {
+      width: 80%;
+    }
+  }

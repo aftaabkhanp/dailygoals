@@ -1,0 +1,8 @@
+.GoalList{
+    width:40%;
+}
+@media only screen and (max-width: 600px) {
+    .GoalList {
+      width: 90%;
+    }
+  }
